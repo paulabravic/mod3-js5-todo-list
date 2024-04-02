@@ -89,8 +89,10 @@ btnAgregar.addEventListener("click", () => {
 
     if (nuevaTarea != "") {
 
+        const maxId = Math.max(...tareas.map(tarea => tarea.id));
+
         const nuevoObj = {
-            id: tareas.length + 1,
+            id: maxId + 1,
             titulo: nuevaTarea,
             estado: false
         }
