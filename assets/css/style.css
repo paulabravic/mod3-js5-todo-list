@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px; 
+}
+
+body {
+    background-color: #ECECEC;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 7fr 10fr;
+}
+
+.card {
+    display: flex;
+    gap: 10px;
+}
+
+.total{
+    display: flex;
+    gap:100px;
+    padding-top: 10px;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #1A7742;
+    color: #D3F3F7;
+    border: 1px #1A7742 solid;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tarea {
+    padding-top: 10px;
+}
+
+.titulo-listado {
+    font-weight: bold;
+    color: black;
+}
+
+.img-eliminar {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+
+.flex-listado {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+    gap: 5px;
+    padding-bottom: 3px;
+}
+
+.totalera {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-top: 5px;
+}
+
+.totalera-bold {
+    font-weight: bold;
+    color: black;
+}
+
+.textbox {
+    width: 80%;
+    height: 20px;
+}
